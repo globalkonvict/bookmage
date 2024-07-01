@@ -2,25 +2,17 @@
   "users": [
     {
       "id": "edd9d13e-ac25-4b72-9296-819050e0c67e",
-      "email": "sarthakwarlock@gmail.com",
+      "email": "sarthak@gmail.com",
       "password": "$2a$10$ZNMcAUMiLD0S19M6Lgylh.5l0YLKUcwSYsh3Jeju.uFs0FxsJJmmC"
     }
   ],
   "books": [
     {
-      "id": "d3cbf9c8-5366-495e-8a7b-7327f162e5ac",
-      "userId": "edd9d13e-ac25-4b72-9296-819050e0c67e",
-      "title": "Ipsa autem toties templum vigilo animadverto damno.",
-      "author": "Ebony VonRueden",
-      "year": 1906,
-      "genre": "Reggae"
-    },
-    {
       "id": "8fb267c3-0631-4b77-9fd8-170354ed605d",
       "userId": "edd9d13e-ac25-4b72-9296-819050e0c67e",
       "title": "Confugo universe amoveo ratione.",
       "author": "Maureen Dibbert-DuBuque",
-      "year": 1944,
+      "year": 1945,
       "genre": "Soul"
     },
     {
@@ -1430,6 +1422,14 @@
       "author": "ddddddddddd",
       "year": 2024,
       "genre": "Funk"
+    },
+    {
+      "id": "9c02f752-10c1-4661-8bcb-7755ee8cb8ec",
+      "userId": "edd9d13e-ac25-4b72-9296-819050e0c67e",
+      "title": "xs",
+      "author": "Ranger",
+      "year": 2024,
+      "genre": "Non-Fiction"
     }
   ]
 }
