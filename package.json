@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
     "seed": "node ./backend/utils/seedDB.js",
-    "dev:client": "cd frontend && npm start",
+    "dev": "nodemon index.js --ignore frontend/",
+    "dev:client": "npm start --prefix frontend",
     "dev:server": "npm run dev",
     "together": "concurrently \"npm run dev:client\" \"npm run dev:server\""
   },
@@ -17,6 +17,8 @@
   "devDependencies": {
     "@faker-js/faker": "^8.4.1",
     "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
     "nodemon": "^3.1.4"
   },
   "dependencies": {
