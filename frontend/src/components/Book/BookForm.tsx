@@ -90,7 +90,7 @@ const BookForm: React.FC<BookFormProps> = ({ book, onClose }) => {
       </Form.Item>
       <Form.Item>
         <Button type="primary" htmlType="submit">
-          {book ? "Update" : "Add"} Book
+          {book?.id ? "Update" : "Add"} Book
         </Button>
       </Form.Item>
     </Form>

@@ -265,7 +265,7 @@ const BookList: React.FC = () => {
       </Card>
 
       <Modal
-        title={editingBook ? "Edit Book" : "Add Book"}
+        title={editingBook?.id ? "Edit Book" : "Add Book"}
         open={!!editingBook}
         onCancel={() => setEditingBook(undefined)}
         footer={null}
